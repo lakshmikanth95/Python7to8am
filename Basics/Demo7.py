@@ -1,8 +1,5 @@
-a = 100
-def fun1():
-    print("Hello")
-    print(a)
-
-print(a)
-fun1()
-print(a)
+x=int(input("number:"))
+if x>0:
+    print("positve")
+else:
+    print("negative")

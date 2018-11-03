@@ -1,13 +1,18 @@
-def fun1():
-    print("Function 1")
-    print(a)
-
-fun1()
-
-def fun2():
-    print("Function 2")
-    print(a)
-
-a = 1000 # Global Variable
-
-fun2()
+name=input("employee name:")
+salary=float(input("employee salary:"))
+designation=input("enter designation:")
+bonus=0
+if designation=="analyst":
+    bonus=10*(salary/100)
+    salary=salary+bonus
+    print(salary)
+elif designation=="manager":
+    bonus=20*(salary/100)
+    salary=salary+bonus
+    print(salary)
+elif designation=="clerk":
+    bonus=5*(salary/100)
+    salary=salary+bonus
+    print(salary)
+else:
+    print("invalid designation")

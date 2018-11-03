@@ -1,9 +1,13 @@
-# Example local variable
+a=int(input("1st number:"))
+b=int(input("2nd number:"))
+#def two_ints(a,b):
+if a==10 or b==10:
+    print("True")
 
-def fun1():
-    print("This is Function")
-    a = 100
-    print(a)
+elif a+b==10:
+    print("True")
 
-fun1()
-print(a)
+else:
+    print("False")
+ #res=two_ints(a,b)
+ #print(res)

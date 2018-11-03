@@ -1,14 +1,12 @@
-a = 1000
-def fun1():
-    global a
-    print(id(a))
-    a = 50
-    print(a)
-    
+a=int(input("enter number:"))
+b=int(input("enter number:"))
 
-print(a)
-print(id(a))
-fun1()
-print(a)
-    
-    
+
+if a<0 and b>0 :
+    print("True")
+elif a>0 and b<0 :
+    print("True")
+elif a<0 and b<0 :
+    print("True")
+else:
+     print("False")

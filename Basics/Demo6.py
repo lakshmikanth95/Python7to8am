@@ -1,9 +1,5 @@
-def fun2():
-    print("I am function 2")
-
-fun2()
-fun1()
-
-def fun1():
-    print("I am function 1")
-
+x=int(input("number:"))
+if x%2==0:
+    print("even")
+else:
+    print("odd")

@@ -1,6 +1,4 @@
-# Swapping Example
-a = 10
-b = 20
-print(a,b)
-a,b = b,a
-print(a,b)
+a,b,c=10,20,30
+print(a,type(a))
+a,b,c=10,20.5,"sathya"
+print(c,type(c))

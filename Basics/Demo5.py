@@ -1,19 +1,14 @@
-def fun1():
-    print("Function 1")
-    fun2()
+x=int(input("first number:"))
+y=int(input("second number:"))
+z=int(input("third number:"))
+if x>y and x>z:
+    print("x is big")
+elif y>x and y>z:
+    print("y is big")
+elif z>x and z>y:
+    print("z is big")
+else:
+    print("among are equal")
 
-def fun3():
-    fun2()
-    print("Function 3")
 
-def fun4():
-    print("Function 4")
-    fun3()
-    
-def fun2():
-    print("Function 2")
 
-fun1()
-fun2()
-fun3()
-fun4()

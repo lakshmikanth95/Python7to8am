@@ -1,10 +1,3 @@
-def display():
-    print("I am display")
-
-print("Function")
-display()
-print("Again")
-display()
-print("Again")
-display()
-print("Thanks")
+no1=int(input("first number"))
+no2=int(input("second number"))
+print("sum=",no1+no2)

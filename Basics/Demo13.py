@@ -1,20 +1,10 @@
-a = 50
-print(a)
-def fun1():
-    global a
-    print(a)
-    fun2()
-    print(a)
-    a = False
-    print(a)
-
-def fun2():
-    print(b)
-    print(a)
-    c = 99.25
-    print(c)
-
-b = 45
-print(a+b)
-fun1()
-fun2()
+def parrot_trouble(hour):
+    if hour>=0 and hour<=23:
+        if hour<7 or hour>20:
+            return  True
+        else:
+            return False
+    else:
+        return False
+res=parrot_trouble(5)
+print(res)
